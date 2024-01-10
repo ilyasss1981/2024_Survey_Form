@@ -1,0 +1,31 @@
+body {
+    background-color: green;
+    font-family: Tahoma;
+  }
+  form {
+    background-color: yellow;
+    width: 80%;
+    max-width: 500px;
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 30px
+  }
+  h1, p {
+    text-align: center;
+  }
+  label, select, textarea {
+    display: block;
+  }
+  input, textarea, select {
+    width: 100%
+  }
+
+  label[for='dropdown'], fieldset, label[for='comments'], input[type='submit'] {
+    margin: 10px 0 0 0 ;
+  }
+  input[type='submit'] {
+    cursor: pointer;
+  }
+  .inline {
+    width: unset;
+  }
